@@ -61,9 +61,8 @@ automation-assignment/
 │   └── navigation.spec.js.spec.js
 <br>
 │
+|
 ├── playwright.config.js
-<br>
-└── README.md
 
 
 ## Setup Instructions
