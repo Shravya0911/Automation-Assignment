@@ -38,16 +38,24 @@ This project demonstrates basic UI and API automation using Playwright. It inclu
 ## Project Structure
 
 automation-assignment/
+<br>
 │
 ├── pages/
+<br>
 │   └── LoginPage.js
-│
+<br>
+│<br>
 ├── tests/
+<br>
 │   ├── basic.spec.js
+<br>
 │   ├── api.spec.js
+<br>
 │   └── login.spec.js
+<br>
 │
 ├── playwright.config.js
+<br>
 └── README.md
 
 
