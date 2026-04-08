@@ -62,7 +62,7 @@ automation-assignment/
 <br>
 │
 <br>
-|
+│
 ├── playwright.config.js
 
 
