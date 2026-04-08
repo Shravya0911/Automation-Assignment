@@ -49,11 +49,11 @@ automation-assignment/
 │<br>
 ├── tests/
 <br>
-│   ├── api.spec.js
+│   └── api.spec.js
 <br>
-│   ├── basic.spec.js
+│   └── basic.spec.js
 <br>
-│   ├── example.spec.js
+│   └── example.spec.js
 <br>
 │   └── login.spec.js
 <br>
