@@ -1,2 +1,64 @@
-# Automation
-This project demonstrates basic automation testing using Playwright. It includes UI testing for verifying webpage load, URL, and title, along with API testing for validating response status and data. The project follows a structured approach with separate test files and a basic Page Object Model setup.
+# Automation Assignment
+
+## Project Description
+
+This project demonstrates basic UI and API automation using Playwright. It includes simple UI validations and API response testing.
+
+
+## Framework & Tools Used
+
+* Playwright (JavaScript)
+* Node.js
+
+
+## Test Cases Implemented
+
+### 1. UI Test
+
+**File:** `tests/basic.spec.js`
+
+* Opens the Automation Anywhere website
+* Verifies:
+
+  * Page URL
+  * Page title
+
+
+### 2. API Test
+
+**File:** `tests/api.spec.js`
+
+* Sends a GET request to fetch data
+* Validates:
+
+  * HTTP status code (200)
+  * Response contains data
+
+
+## Project Structure
+
+automation-assignment/
+│
+├── pages/
+│   └── LoginPage.js
+│
+├── tests/
+│   ├── basic.spec.js
+│   ├── api.spec.js
+│   └── login.spec.js
+│
+├── playwright.config.js
+└── README.md
+
+
+## Setup Instructions
+
+1. Install dependencies:
+   npm install
+
+2. Run UI test:
+   npx playwright test tests/basic.spec.js --headed
+
+3. Run API test:
+   npx playwright test tests/api.spec.js
+   
