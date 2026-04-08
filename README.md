@@ -42,16 +42,22 @@ automation-assignment/
 │
 ├── pages/
 <br>
+│   └── HomePage.js
+<br>
 │   └── LoginPage.js
 <br>
 │<br>
 ├── tests/
 <br>
-│   ├── basic.spec.js
-<br>
 │   ├── api.spec.js
 <br>
+│   ├── basic.spec.js
+<br>
+│   ├── example.spec.js
+<br>
 │   └── login.spec.js
+<br>
+│   └── navigation.spec.js.spec.js
 <br>
 │
 ├── playwright.config.js
